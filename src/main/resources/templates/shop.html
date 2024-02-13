@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="" th:href="@{/css/carsss.css}" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<style>
+	
+</style>
+<body>
+	<!--  ===========Nav bar================= -->
+	<nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+  		<div class="container-fluid">
+   	 		<a class="navbar-brand">Navbar</a>
+    		<form class="d-flex" role="search">
+     	 		<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+     	 		<button class="btn btn-outline-success" type="submit">Search</button>
+    		</form>
+  		</div>
+	</nav>
+	
+<!-- ============ nav bar ends ====================== -->	
+	
+<!-- ============ Hero Section ====================== -->		
+	<div class="container">
+		
+	</div>
+<!-- ============ Hero section  ends ====================== -->		
+	
+<!--   content -->
+	<div class="title">
+		<h1>TOP CARS</h1>	
+	</div>
+
+<div class="main">
+	
+	<div class="box"> 
+		<img  th:src="@{'/img/cars4.jpg'}" alt="pic"/>
+		<p>Range rover</p>
+	</div>
+	<div class="box"> 
+		<img  th:src="@{'/img/cars3.jpg'}" alt="pic"/>
+		<p>Range rover</p>
+	</div>
+	<div class="box"> 
+		<img  th:src="@{'/img/cars2.jpg'}" alt="pic"/>
+		<p>Range rover</p>
+	</div>
+	<div class="box"> 
+		<img  th:src="@{'/img/cars1.jpg'}" alt="pic"/>
+		<p>Range rover</p>
+	</div>
+	<div class="box"> 
+		<img  th:src="@{'/img/cars3.jpg'}" alt="pic"/>
+		<p>Range rover</p>
+	</div>	
+	<div class="box"> 
+		<img  th:src="@{'/img/cars2.jpg'}" alt="pic"/>
+		<div>
+			<p>Range rover</p>	
+		</div>
+	</div>
+	
+</div>
+
+
+
+</body>
+</html>
